@@ -54,6 +54,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .st:first-child{border-left:0;padding-left:0}
 .st b{display:block;font:700 clamp(38px,5vw,64px)/1 var(--h);color:var(--or)}
 .st span{font-size:14px;color:var(--soft)}
+.goal{padding:clamp(30px,4.5vw,56px) 0 0}.goal p{font:600 clamp(22px,3vw,38px)/1.2 var(--h);letter-spacing:-.015em;max-width:24em}.goal em{font-style:normal;color:var(--or)}
 /* sections */
 section{padding:clamp(64px,9vw,120px) 0}
 .sh{display:grid;grid-template-columns:auto 1fr;gap:6px 28px;align-items:end;margin-bottom:clamp(28px,4vw,48px)}
@@ -213,7 +214,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <div id="bar" aria-hidden="true"></div>
 <header class="nav"><div class="wrap">
   <a class="brand" href="#top">Chi Lee <i>×</i> AGIBOT Spain</a>
-  <nav class="links" aria-label="Sections"><a href="#start">Starting point</a><a href="#robots">Robots</a><a href="#doors">Three doors</a><a href="#names">12 names</a><a href="#plan">90 days</a><a href="#why">Why me</a></nav>
+  <nav class="links" aria-label="Sections"><a href="#start">Starting point</a><a href="#doors">Three doors</a><a href="#names">12 names</a><a href="#plan">90 days</a><a href="#why">Why me</a></nav>
   <a class="btn p" href="mailto:fu6fu62@gmail.com?subject=Opening%20Spain%20for%20AGIBOT">Talk to Chi</a>
 </div></header>
 
@@ -238,6 +239,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   <div class="st"><b>90</b><span>days</span></div>
 </div></div>
 
+<div class="goal"><div class="wrap"><p>The goal: make Spain a <em>volume market</em> for AGIBOT. It starts with one paid pilot in 90 days.</p></div></div>
+
 <section id="start"><div class="wrap">
   <div class="sh rv"><div class="n">01 / STARTING POINT</div><h2>Channel in place. Next: named customers.</h2><p>AGIBOT already has a Spanish partner. What the market needs now is specific end customers and a first paid pilot to point to.</p></div>
   <div class="flow rv">
@@ -260,24 +263,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   </div>
 </div></section>
 
-<section id="robots" class="alt"><div class="wrap">
-  <div class="sh rv"><div class="n">02 / WHAT WE SELL</div><h2>Three robots, three kinds of buyer</h2><p>This plan leads with the three products that already fit Spanish facilities, retail and logistics.</p></div>
-  <div class="rb">
-    <article class="card rc rv"><div class="im lv"><img src="img/c5.webp" alt="AGIBOT C5 cleaning robot next to its service station" loading="lazy"></div><div class="tx">
-      <h3>AGIBOT C5 <span class="tag">Cleaning</span></h3><div class="ty">Autonomous floor-cleaning robot for large sites</div>
-      <div class="sp"><div><b>1,980 m²/h</b>max cleaning rate</div><div><b>550 mm</b>scrubbing width</div><div><b>90 L · 3 h</b>tank and scrubbing time</div><div><b>Self-service</b>charging, water, lift access</div></div></div></article>
-    <article class="card rc rv"><div class="im"><img src="img/x2.jpg" alt="AGIBOT X2 humanoid robot walking" loading="lazy"></div><div class="tx">
-      <h3>AGIBOT X2 <span class="tag b">Interaction</span></h3><div class="ty">Compact humanoid for greeting, guiding and events</div>
-      <div class="sp"><div><b>1.31 m · 39 kg</b>X2 Ultra</div><div><b>30+ DoF</b>7 per arm</div><div><b>2 h · 500 Wh</b>battery</div><div><b>Ultra / Neo</b>plus REC and EDU versions</div></div></div></article>
-    <article class="card rc rv"><div class="im"><img src="img/g2.jpg" alt="AGIBOT G2 wheeled humanoid robot" loading="lazy"></div><div class="tx">
-      <h3>AGIBOT G2 <span class="tag g">Industrial</span></h3><div class="ty">Wheeled humanoid for handling and assembly</div>
-      <div class="sp"><div><b>5 kg per arm</b>two 7-DoF force-controlled arms</div><div><b>±0.1 mm</b>repeatability</div><div><b>1.5 m/s</b>four-wheel-steer base</div><div><b>Hot-swap</b>dual batteries, auto-recharge</div></div></div></article>
-  </div>
-  <div class="also rv"><img src="img/a3.jpg" alt="AGIBOT A3 Ultra" loading="lazy"><img src="img/d1.jpg" alt="AGIBOT D1 Max Pro" loading="lazy"><span>Also in the portfolio: A2 and A3 full-size humanoids, and the D1 quadruped series.</span></div>
-</div></section>
-
-<section id="doors"><div class="wrap">
-  <div class="sh rv"><div class="n">03 / WHERE TO START</div><h2>Three doors, matched to three products</h2><p>Each door has a clear product, a clear buyer and a reason to move now.</p></div>
+<section id="doors" class="alt"><div class="wrap">
+  <div class="sh rv"><div class="n">02 / WHERE TO START</div><h2>Three doors, matched to three products</h2><p>Each door has a clear product, a clear buyer and a reason to move now.</p></div>
   <div class="dr">
     <article class="card dc rv"><div class="im"><img src="img/door-fm.jpg" alt="AGIBOT C5 cleaning robot waiting at a lift" style="object-position:72% 50%" loading="lazy"><div class="no">1</div><div class="tg"><span class="tag">C5</span></div></div><div class="tx"><h3>Facility management</h3><p>Cleaning contractors run hundreds of sites. One contract can place robots in many buildings.</p></div></article>
     <article class="card dc rv"><div class="im"><img src="img/door-retail.jpg" alt="AGIBOT X2 waving in a reception lobby" style="object-position:93% 50%" loading="lazy"><div class="no">2</div><div class="tg"><span class="tag b">X2 + C5</span></div></div><div class="tx"><h3>Retail and shopping centres</h3><p>X2 draws visitors at events and openings. C5 cleans the same floors every night.</p></div></article>
@@ -286,8 +273,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   <div class="note rv"><b>Order of attack:</b> facility management first, because one decision-maker opens the most sites.</div>
 </div></section>
 
-<section id="names" class="alt"><div class="wrap">
-  <div class="sh rv"><div class="n">04 / TARGET LIST</div><h2>The first 12 names I would contact</h2><p>Every name has a product fit and a reason. My first three calls are marked.</p></div>
+<section id="names"><div class="wrap">
+  <div class="sh rv"><div class="n">03 / TARGET LIST</div><h2>The first 12 names I would contact</h2><p>Every name has a product fit and a reason. My first three calls are marked.</p></div>
   <div class="chips rv" role="group" aria-label="Filter the target list">
     <button class="chip" data-f="all" aria-pressed="true">All <span>12</span></button>
     <button class="chip" data-f="fm" aria-pressed="false">Facilities <span>4</span></button>
@@ -312,8 +299,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   <div class="note rv"><b>First three calls:</b> Serveo, ISS and Westfield. One decision there opens many sites.</div>
 </div></section>
 
-<section id="plan"><div class="wrap">
-  <div class="sh rv"><div class="n">05 / PLAN</div><h2>What happens in 90 days</h2><p>Three phases, each with something I can show at the end of it.</p></div>
+<section id="plan" class="alt"><div class="wrap">
+  <div class="sh rv"><div class="n">04 / PLAN</div><h2>What happens in 90 days</h2><p>Three phases. The target for the quarter: 5 on-site demos and 1 paid pilot.</p></div>
   <div class="tl">
     <div class="stp rv"><div class="dot">1</div><div class="mono">Days 1–30</div><h3>Contact</h3><div class="card"><ul><li>Align with <b>RH BOTS</b> on who owns which leads.</li><li>Reach all <b>12 accounts</b>.</li><li>Book the first <b>C5 demos</b> with two contractors.</li></ul></div></div>
     <div class="stp rv"><div class="dot">2</div><div class="mono">Days 31–60</div><h3>Demonstrate</h3><div class="card"><ul><li>Run <b>5 demos</b> on real sites: a mall, a hypermarket, a warehouse.</li><li>Agree <b>pilot success criteria</b> with the two strongest accounts.</li></ul></div></div>
@@ -322,26 +309,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   <div class="card show rv"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ff8a3d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span><b>Next showcase:</b> Advanced Factories, Fira Barcelona, 31 March – 2 April 2027, right after day 90.</span></div>
 </div></section>
 
-<section id="target" class="alt"><div class="wrap">
-  <div class="sh rv"><div class="n">06 / COMMITMENT</div><h2>My first-quarter target</h2><p>Three numbers I would be measured on.</p></div>
-  <div class="tg3">
-    <div class="card tn rv"><b>3</b><h3>partner conversations</h3><p>Integrators and distributors actively working leads with us.</p></div>
-    <div class="card tn rv"><b>5</b><h3>on-site demos</h3><p>Robots working on the customer's own floor.</p></div>
-    <div class="card tn rv"><b>1</b><h3>paid pilot</h3><p>Signed, with success criteria agreed up front.</p></div>
-  </div>
-  <div class="fun" id="fun" role="img" aria-label="Funnel: 12 accounts contacted, 5 on-site demos, 1 paid pilot">
-    <div class="fb" style="--w:86%;background:#4d86ff;color:#fff">12 accounts contacted</div>
-    <div class="fb" style="--w:58%;background:#ff8a3d">5 on-site demos</div>
-    <div class="fb" style="--w:32%;background:#35d0a0">1 paid pilot</div>
-  </div>
-</div></section>
-
 <section id="why"><div class="wrap">
-  <div class="sh rv"><div class="n">07 / WHY ME</div><h2>BD drive with a robotics background</h2><p>I can open the door, follow the technical conversation and stay close to the customer.</p></div>
+  <div class="sh rv"><div class="n">05 / WHY ME</div><h2>BD drive with a robotics background</h2><p>I can open the door, follow the technical conversation and stay close to the customer.</p></div>
   <div class="why">
     <div class="card wc rv"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff8a3d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></svg></div><div class="mono">BD</div><h3>I build pipelines from zero</h3><p>Crypto-exchange BD: I find, qualify and negotiate with hard-to-reach partners through cold outreach, in roles where results decide everything.</p></div>
     <div class="card wc rv"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff8a3d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="8" width="14" height="10" rx="2"/><path d="M12 4v4M9 13h.01M15 13h.01M2 13h3M19 13h3M9 21v-3M15 21v-3"/></svg></div><div class="mono">Robotics</div><h3>I speak the technical language</h3><p>Robotics and Advanced Construction at IAAC Barcelona, hands-on with ABB and UR robot arms. I can support demos and technical discussions.</p></div>
-    <div class="card wc rv"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff8a3d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div class="mono">Local</div><h3>I am already here</h3><p>Based in Barcelona. Mandarin native, professional English, Spanish A1 and improving. I also produce robotics content for social media and events.</p></div>
+    <div class="card wc rv"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff8a3d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div class="mono">Local</div><h3>I am already here</h3><p>Based in Barcelona. Mandarin native, professional English. My Spanish is A1 and improving, so at first I would run Spanish-language meetings together with RH BOTS.</p></div>
   </div>
   <div class="end rv"><h3>I would be glad to walk you through this plan.</h3><div class="act"><a class="btn d" href="mailto:fu6fu62@gmail.com?subject=Opening%20Spain%20for%20AGIBOT">fu6fu62@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/chi-l-589166229/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div>
 
