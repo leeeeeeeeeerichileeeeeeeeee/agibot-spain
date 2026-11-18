@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0b1220">
+<meta name="description" content="A 90-day plan for opening the Spanish market for AGIBOT: 12 named accounts, 5 on-site demos, 1 paid pilot. By Chi Lee, Barcelona.">
+<title>Opening Spain for AGIBOT · First 90 Days · Chi Lee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b1220;--bg2:#111b2e;--card:#16233a;--line:#26385a;--ink:#f5f2ea;--soft:#b7c2d6;--mute:#7f8fab;--or:#ff8a3d;--bl:#4d86ff;--gr:#35d0a0;
+--h:"Space Grotesk","Segoe UI",Arial,sans-serif;--b:"Inter","Segoe UI",Arial,sans-serif;--m:"JetBrains Mono",Consolas,monospace;--pad:clamp(20px,5vw,72px);--max:1240px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--bg);color:var(--ink);font-family:var(--b);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--or);outline-offset:3px;border-radius:6px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.mono{font-family:var(--m);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+#bar{position:fixed;left:0;top:0;height:3px;width:0;background:linear-gradient(90deg,var(--bl),var(--or),var(--gr));z-index:60}
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(11,18,32,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.07)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.brand{font:700 16px var(--h);text-decoration:none;white-space:nowrap}
+.brand i{font-style:normal;color:var(--or)}
+.links{display:flex;gap:26px;font-size:13.5px;color:var(--soft)}
+.links a{text-decoration:none}
+.links a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;font:600 14px var(--b);text-decoration:none;padding:11px 18px;border-radius:99px;border:1px solid var(--line);transition:transform .2s,background .2s,color .2s,border-color .2s}
+.btn:hover{transform:translateY(-2px);border-color:var(--ink)}
+.btn.p{background:var(--or);border-color:var(--or);color:#0b1220}
+.btn.p:hover{background:#ffa15f;border-color:#ffa15f}
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;padding:120px 0 44px;isolation:isolate}
+.hero .ph{position:absolute;inset:0 0 0 42%;z-index:-2}
+.hero .ph img{width:100%;height:100%;object-fit:cover;object-position:62% 55%}
+.hero .ph:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--bg) 0%,rgba(11,18,32,.55) 28%,rgba(11,18,32,.05) 62%),linear-gradient(0deg,var(--bg) 0%,rgba(11,18,32,0) 34%)}
+.hero .grid{position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:72px 72px;-webkit-mask-image:linear-gradient(90deg,#000 0%,#000 38%,transparent 62%);mask-image:linear-gradient(90deg,#000 0%,#000 38%,transparent 62%)}
+.hero .wrap{width:100%}
+.hero .k{color:var(--or)}
+.hero h1{font:700 clamp(46px,8.4vw,116px)/.96 var(--h);letter-spacing:-.035em;margin:18px 0 22px;max-width:9.5ch}
+.hero h1 em{font-style:normal;color:var(--or)}
+.hero p.sub{font-size:clamp(17px,1.9vw,22px);color:var(--soft);max-width:30em}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.hero .by{margin-top:26px;color:var(--mute)}
+.cap{position:absolute;right:var(--pad);bottom:16px;font-size:11px;color:#e9eefa;background:rgba(6,10,18,.6);padding:5px 9px;border-radius:6px}
+.stats{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg2)}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.st{padding:26px 0 24px;border-left:1px solid var(--line);padding-left:22px}
+.st:first-child{border-left:0;padding-left:0}
+.st b{display:block;font:700 clamp(38px,5vw,64px)/1 var(--h);color:var(--or)}
+.st span{font-size:14px;color:var(--soft)}
+/* sections */
+section{padding:clamp(64px,9vw,120px) 0}
+.sh{display:grid;grid-template-columns:auto 1fr;gap:6px 28px;align-items:end;margin-bottom:clamp(28px,4vw,48px)}
+.sh .n{font:500 13px var(--m);color:var(--or);letter-spacing:.12em;grid-column:1/-1}
+.sh h2{font:700 clamp(32px,4.6vw,60px)/1.04 var(--h);letter-spacing:-.025em;max-width:16ch}
+.sh p{color:var(--soft);font-size:clamp(15px,1.4vw,17.5px);max-width:34em;justify-self:end}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px}
+.tag{display:inline-block;font:700 11.5px var(--b);letter-spacing:.08em;padding:4px 10px;border-radius:99px;background:rgba(255,138,61,.14);color:var(--or);border:1px solid rgba(255,138,61,.45);white-space:nowrap}
+.tag.b{background:rgba(77,134,255,.14);color:#9dbcff;border-color:rgba(77,134,255,.5)}
+.tag.g{background:rgba(53,208,160,.12);color:var(--gr);border-color:rgba(53,208,160,.45)}
+/* 01 */
+.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:14px;align-items:stretch}
+.fc{padding:26px}
+.fc.on{border-color:var(--or);background:linear-gradient(180deg,rgba(255,138,61,.14),var(--card))}
+.fc .mono{color:var(--mute)}
+.fc.on .mono{color:var(--or)}
+.fc h3{font:700 clamp(22px,2.2vw,29px)/1.15 var(--h);margin:8px 0 10px}
+.fc p{color:var(--soft);font-size:15.5px}
+.ar{align-self:center;color:var(--or);font-size:26px}
+.ctx{display:grid;grid-template-columns:1fr 1fr 300px;gap:16px;margin-top:16px}
+.bx{padding:24px 26px;background:var(--bg2)}
+.bx h4{font:500 12px var(--m);letter-spacing:.12em;text-transform:uppercase;color:var(--or);margin-bottom:14px}
+.bx li{list-style:none;position:relative;padding-left:18px;margin-bottom:11px;color:var(--soft);font-size:15px}
+.bx li:before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;border-radius:50%;background:var(--bl)}
+.bx li b{color:var(--ink);font-weight:600}
+.pic{border-radius:18px;overflow:hidden;position:relative;border:1px solid var(--line);min-height:220px}
+.pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 28%}
+.pic span{position:absolute;left:10px;bottom:10px;font-size:10.5px;background:rgba(6,10,18,.66);padding:4px 8px;border-radius:5px}
+/* 02 robots */
+.alt{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.rb{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rc{overflow:hidden;display:flex;flex-direction:column;transition:transform .3s,border-color .3s}
+.rc:hover{transform:translateY(-6px);border-color:#4a628f}
+.rc .im{background:#fff;aspect-ratio:1.5;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.rc .im.lv{background:#eef0f6}
+.rc .im img{width:100%;height:100%;object-fit:contain;transition:transform .5s}
+.rc:hover .im img{transform:scale(1.05)}
+.rc .tx{padding:22px 24px 26px}
+.rc h3{font:700 28px var(--h);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.rc .ty{color:var(--or);font-weight:600;font-size:14.5px;margin:4px 0 16px}
+.sp{display:grid;grid-template-columns:1fr 1fr;gap:14px 16px}
+.sp div{font-size:13px;color:var(--soft);line-height:1.35}
+.sp b{display:block;font:700 19px var(--h);color:var(--ink)}
+.also{display:flex;align-items:center;gap:12px;margin-top:20px;color:var(--mute);font-size:14px}
+.also img{width:52px;height:52px;border-radius:10px;background:#fff;object-fit:contain;flex:none}
+/* 03 doors */
+.dr{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.dc{overflow:hidden}
+.dc .im{position:relative;aspect-ratio:1.32;overflow:hidden}
+.dc .im img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.dc:hover .im img{transform:scale(1.05)}
+.dc .no{position:absolute;left:14px;top:14px;width:40px;height:40px;border-radius:50%;background:var(--or);color:#0b1220;font:700 18px var(--h);display:flex;align-items:center;justify-content:center}
+.dc .tg{position:absolute;right:12px;top:18px}
+.dc .tg .tag{background:rgba(6,10,18,.74)}
+.dc .tx{padding:22px 24px 26px}
+.dc h3{font:700 24px/1.15 var(--h);margin-bottom:8px}
+.dc p{color:var(--soft);font-size:15.5px}
+.note{margin-top:18px;background:rgba(255,138,61,.1);border-left:4px solid var(--or);border-radius:10px;padding:16px 20px;font-size:clamp(15px,1.5vw,17.5px)}
+.note b{color:var(--or)}
+/* 04 names */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.chip{font:600 13.5px var(--b);color:var(--soft);background:transparent;border:1px solid var(--line);padding:9px 16px;border-radius:99px;cursor:pointer;transition:all .2s}
+.chip:hover{border-color:var(--ink);color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);color:#0b1220;border-color:var(--ink)}
+.chip span{font-family:var(--m);font-size:11px;opacity:.7;margin-left:4px}
+.nm{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.nc{padding:20px 20px 22px;position:relative;transition:transform .25s,border-color .25s,opacity .25s}
+.nc:hover{transform:translateY(-4px);border-color:#4a628f}
+.nc.hide{display:none}
+.nc.top{border-color:rgba(255,138,61,.6);background:linear-gradient(180deg,rgba(255,138,61,.1),var(--card) 60%)}
+.nc .hd{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:12px}
+.nc .ix{font:500 12px var(--m);color:var(--mute)}
+.nc h3{font:700 20px/1.2 var(--h);margin-bottom:6px}
+.nc p{color:var(--soft);font-size:14px;line-height:1.45}
+.nc .t3{position:absolute;right:14px;bottom:14px;font:700 10.5px var(--m);letter-spacing:.1em;color:var(--or)}
+/* 05 timeline */
+.tl{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tl:before{content:"";position:absolute;left:0;right:0;top:21px;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--bl),var(--or),var(--gr))}
+.stp{position:relative;padding-top:60px}
+.stp .dot{position:absolute;left:0;top:0;width:46px;height:46px;border-radius:50%;background:var(--bg);border:4px solid var(--bl);display:flex;align-items:center;justify-content:center;font:700 16px var(--h)}
+.stp:nth-child(2) .dot{border-color:var(--or)}.stp:nth-child(3) .dot{border-color:var(--gr)}
+.stp .mono{color:var(--mute)}
+.stp h3{font:700 clamp(26px,2.8vw,34px) var(--h);margin:2px 0 14px}
+.stp .card{padding:24px;height:calc(100% - 96px);min-height:190px}
+.stp li{list-style:none;position:relative;padding-left:28px;margin-bottom:14px;color:var(--soft);font-size:16.5px;line-height:1.45}
+.stp li:before{content:"✓";position:absolute;left:0;color:var(--or);font-weight:700}
+.stp li b{color:var(--ink)}
+.show{margin-top:18px;display:flex;gap:14px;align-items:center;padding:18px 22px;background:var(--bg2);font-size:16px}
+.show svg{flex:none}
+/* 06 target */
+.tg3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tn{padding:26px 28px 30px}
+.tn b{display:block;font:700 clamp(80px,10vw,132px)/.95 var(--h);color:var(--or)}
+.tn h3{font:700 24px var(--h);margin:10px 0 8px}
+.tn p{color:var(--soft);font-size:15.5px}
+.fun{margin-top:30px;display:flex;flex-direction:column;gap:10px;align-items:center}
+.fb{height:54px;border-radius:12px;display:flex;align-items:center;justify-content:center;font:600 clamp(14px,1.5vw,17px) var(--b);color:#0b1220;width:0;transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
+.fun.in .fb{width:var(--w)}
+/* 07 why */
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.wc{padding:30px 30px 34px}
+.wc .ic{width:60px;height:60px;border-radius:16px;background:rgba(255,138,61,.14);border:1px solid rgba(255,138,61,.45);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.wc .mono{color:var(--or)}
+.wc h3{font:700 26px/1.15 var(--h);margin:6px 0 12px}
+.wc p{color:var(--soft);font-size:16px}
+.end{margin-top:22px;background:var(--or);color:#0b1220;border-radius:22px;padding:clamp(28px,4vw,48px);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.end h3{font:700 clamp(26px,3.6vw,46px)/1.05 var(--h);letter-spacing:-.02em;max-width:14ch}
+.end .act{display:flex;flex-wrap:wrap;gap:10px}
+.end .btn{border-color:#0b1220;color:#0b1220}
+.end .btn.d{background:#0b1220;color:var(--ink)}
+.end .btn:hover{background:#0b1220;color:var(--ink)}
+/* sources */
+details{border:1px solid var(--line);border-radius:16px;background:var(--bg2);margin-top:40px}
+summary{cursor:pointer;padding:18px 24px;font:600 15px var(--b);list-style:none;display:flex;justify-content:space-between;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font:500 22px var(--m);color:var(--or)}
+details[open] summary:after{content:"–"}
+.srcs{padding:4px 24px 24px;columns:2;column-gap:40px}
+.srcs li{list-style:none;font-size:13.5px;color:var(--soft);margin-bottom:10px;break-inside:avoid}
+.srcs b{color:var(--ink);font-weight:600}
+.srcs a{color:#9dbcff;word-break:break-word}
+footer{border-top:1px solid var(--line);padding:26px 0 40px;color:var(--mute);font-size:12.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+/* reveal */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.rv{opacity:1;transform:none;transition:none}.fb{transition:none}.rc,.dc .im img,.rc .im img,.btn,.nc{transition:none}}
+/* responsive */
+@media (max-width:1020px){
+ .links{display:none}
+ .ctx{grid-template-columns:1fr 1fr}.pic{grid-column:1/-1;min-height:240px}
+ .nm{grid-template-columns:repeat(2,1fr)}
+ .sh{grid-template-columns:1fr}.sh p{justify-self:start}
+}
+@media (max-width:760px){
+ .hero{display:block;min-height:0;padding:calc(64px + 44svh + 26px) 0 36px}
+ .hero .ph{inset:64px 0 auto 0;height:44svh}
+ .hero .ph img{object-position:96% 78%}
+ .hero .ph:after{background:linear-gradient(0deg,var(--bg) 0%,rgba(11,18,32,0) 38%)}
+ .hero .grid{display:none}
+ .cap{display:none}
+ .stats .wrap{grid-template-columns:1fr 1fr}
+ .st{padding:18px 0 16px 16px}.st:nth-child(odd){border-left:0;padding-left:0}.st:nth-child(n+3){border-top:1px solid var(--line)}
+ .flow{grid-template-columns:1fr}.ar{transform:rotate(90deg);justify-self:center}
+ .ctx,.rb,.dr,.tg3,.why{grid-template-columns:1fr}
+ .tl{grid-template-columns:1fr;gap:26px}
+ .tl:before{left:21px;right:auto;top:0;bottom:0;width:4px;height:auto;background:linear-gradient(180deg,var(--bl),var(--or),var(--gr))}
+ .stp{padding:0 0 0 64px}.stp .card{height:auto;min-height:0}
+ .nm{grid-template-columns:1fr}
+ .srcs{columns:1}
+ .nav .btn{padding:9px 14px;font-size:13px}
+ .fun .fb{font-size:13.5px}
+}
+</style>
+</head>
+<body>
+<div id="bar" aria-hidden="true"></div>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#top">Chi Lee <i>×</i> AGIBOT Spain</a>
+  <nav class="links" aria-label="Sections"><a href="#start">Starting point</a><a href="#robots">Robots</a><a href="#doors">Three doors</a><a href="#names">12 names</a><a href="#plan">90 days</a><a href="#why">Why me</a></nav>
+  <a class="btn p" href="mailto:fu6fu62@gmail.com?subject=Opening%20Spain%20for%20AGIBOT">Talk to Chi</a>
+</div></header>
+
+<main id="top">
+<div class="hero">
+  <div class="ph"><img src="img/hero.jpg" alt="Two AGIBOT humanoid robots in front of the MWC sign in Barcelona" fetchpriority="high"></div>
+  <div class="grid" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="mono k">Market proposal · Spain · November 2026</div>
+    <h1>Opening Spain for <em>AGIBOT</em></h1>
+    <p class="sub">Who I would contact first, through which channels, and what I would deliver in the first 90 days.</p>
+    <div class="cta"><a class="btn p" href="#names">See the 12 names ↓</a><a class="btn" id="pdfbtn" href="Chi-Lee-Opening-Spain-for-AGIBOT.pdf" download>Download as PDF</a></div>
+    <div class="by mono">Chi Lee · Barcelona</div>
+  </div>
+  <div class="cap">AGIBOT at MWC 2026, Barcelona · photo: AGIBOT</div>
+</div>
+
+<div class="stats"><div class="wrap">
+  <div class="st"><b>12</b><span>named accounts</span></div>
+  <div class="st"><b>5</b><span>on-site demos</span></div>
+  <div class="st"><b>1</b><span>paid pilot</span></div>
+  <div class="st"><b>90</b><span>days</span></div>
+</div></div>
+
+<section id="start"><div class="wrap">
+  <div class="sh rv"><div class="n">01 / STARTING POINT</div><h2>Channel in place. Next: named customers.</h2><p>AGIBOT already has a Spanish partner. What the market needs now is specific end customers and a first paid pilot to point to.</p></div>
+  <div class="flow rv">
+    <div class="card fc"><div class="mono">In place</div><h3>Partners</h3><p>RH BOTS, a Spanish automation and robotics integrator, signed at MWC 2026 for sales, local service and robot rental.</p></div>
+    <div class="ar" aria-hidden="true">→</div>
+    <div class="card fc on"><div class="mono">This plan</div><h3>Named end customers</h3><p>12 accounts in Spain, each with a product fit and a way in.</p></div>
+    <div class="ar" aria-hidden="true">→</div>
+    <div class="card fc"><div class="mono">Goal</div><h3>Paid pilots</h3><p>One signed pilot in the first quarter, delivered with the partner.</p></div>
+  </div>
+  <div class="ctx rv">
+    <div class="card bx"><h4>AGIBOT in Spain today</h4><ul>
+      <li><b>MWC 2026, Barcelona:</b> full portfolio on show, a rental model introduced, and an A2 guided King Felipe VI through the exhibition.</li>
+      <li><b>RH BOTS</b> agreement covers sales, localised service, industry solutions and RaaS.</li>
+      <li><b>TÜV Rheinland</b> testing and certification for A2, X2, G2, D1 Max Pro and C5.</li></ul></div>
+    <div class="card bx"><h4>Competitors already have local routes</h4><ul>
+      <li><b>Gausium:</b> official distributor NouColors, and a live demo with cleaning contractor Limcamar in July 2026.</li>
+      <li><b>SoftBank Robotics:</b> sold through Bunzl Distribution Spain since 2023.</li>
+      <li>So for the C5, facility-management contractors are the first door to knock on.</li></ul></div>
+    <div class="pic"><img src="img/event.jpg" alt="An AGIBOT humanoid robot dressed as a waiter at an event" loading="lazy"><span>AGIBOT at MWC 2026 · photo: AGIBOT</span></div>
+  </div>
+</div></section>
+
+<section id="robots" class="alt"><div class="wrap">
+  <div class="sh rv"><div class="n">02 / WHAT WE SELL</div><h2>Three robots, three kinds of buyer</h2><p>This plan leads with the three products that already fit Spanish facilities, retail and logistics.</p></div>
+  <div class="rb">
+    <article class="card rc rv"><div class="im lv"><img src="img/c5.webp" alt="AGIBOT C5 cleaning robot next to its service station" loading="lazy"></div><div class="tx">
+      <h3>AGIBOT C5 <span class="tag">Cleaning</span></h3><div class="ty">Autonomous floor-cleaning robot for large sites</div>
+      <div class="sp"><div><b>1,980 m²/h</b>max cleaning rate</div><div><b>550 mm</b>scrubbing width</div><div><b>90 L · 3 h</b>tank and scrubbing time</div><div><b>Self-service</b>charging, water, lift access</div></div></div></article>
+    <article class="card rc rv"><div class="im"><img src="img/x2.jpg" alt="AGIBOT X2 humanoid robot walking" loading="lazy"></div><div class="tx">
+      <h3>AGIBOT X2 <span class="tag b">Interaction</span></h3><div class="ty">Compact humanoid for greeting, guiding and events</div>
+      <div class="sp"><div><b>1.31 m · 39 kg</b>X2 Ultra</div><div><b>30+ DoF</b>7 per arm</div><div><b>2 h · 500 Wh</b>battery</div><div><b>Ultra / Neo</b>plus REC and EDU versions</div></div></div></article>
+    <article class="card rc rv"><div class="im"><img src="img/g2.jpg" alt="AGIBOT G2 wheeled humanoid robot" loading="lazy"></div><div class="tx">
+      <h3>AGIBOT G2 <span class="tag g">Industrial</span></h3><div class="ty">Wheeled humanoid for handling and assembly</div>
+      <div class="sp"><div><b>5 kg per arm</b>two 7-DoF force-controlled arms</div><div><b>±0.1 mm</b>repeatability</div><div><b>1.5 m/s</b>four-wheel-steer base</div><div><b>Hot-swap</b>dual batteries, auto-recharge</div></div></div></article>
+  </div>
+  <div class="also rv"><img src="img/a3.jpg" alt="AGIBOT A3 Ultra" loading="lazy"><img src="img/d1.jpg" alt="AGIBOT D1 Max Pro" loading="lazy"><span>Also in the portfolio: A2 and A3 full-size humanoids, and the D1 quadruped series.</span></div>
+</div></section>
+
+<section id="doors"><div class="wrap">
+  <div class="sh rv"><div class="n">03 / WHERE TO START</div><h2>Three doors, matched to three products</h2><p>Each door has a clear product, a clear buyer and a reason to move now.</p></div>
+  <div class="dr">
+    <article class="card dc rv"><div class="im"><img src="img/door-fm.jpg" alt="AGIBOT C5 cleaning robot waiting at a lift" style="object-position:72% 50%" loading="lazy"><div class="no">1</div><div class="tg"><span class="tag">C5</span></div></div><div class="tx"><h3>Facility management</h3><p>Cleaning contractors run hundreds of sites. One contract can place robots in many buildings.</p></div></article>
+    <article class="card dc rv"><div class="im"><img src="img/door-retail.jpg" alt="AGIBOT X2 waving in a reception lobby" style="object-position:93% 50%" loading="lazy"><div class="no">2</div><div class="tg"><span class="tag b">X2 + C5</span></div></div><div class="tx"><h3>Retail and shopping centres</h3><p>X2 draws visitors at events and openings. C5 cleans the same floors every night.</p></div></article>
+    <article class="card dc rv"><div class="im"><img src="img/door-log.jpg" alt="AGIBOT G2 wheeled humanoid raising one arm" style="object-position:62% 50%" loading="lazy"><div class="no">3</div><div class="tg"><span class="tag g">G2</span></div></div><div class="tx"><h3>Logistics and manufacturing</h3><p>Sites near Barcelona that already test robots and have teams ready to run a pilot.</p></div></article>
+  </div>
+  <div class="note rv"><b>Order of attack:</b> facility management first, because one decision-maker opens the most sites.</div>
+</div></section>
+
+<section id="names" class="alt"><div class="wrap">
+  <div class="sh rv"><div class="n">04 / TARGET LIST</div><h2>The first 12 names I would contact</h2><p>Every name has a product fit and a reason. My first three calls are marked.</p></div>
+  <div class="chips rv" role="group" aria-label="Filter the target list">
+    <button class="chip" data-f="all" aria-pressed="true">All <span>12</span></button>
+    <button class="chip" data-f="fm" aria-pressed="false">Facilities <span>4</span></button>
+    <button class="chip" data-f="re" aria-pressed="false">Retail <span>4</span></button>
+    <button class="chip" data-f="lo" aria-pressed="false">Logistics <span>2</span></button>
+    <button class="chip" data-f="ch" aria-pressed="false">Channel <span>2</span></button>
+  </div>
+  <div class="nm" id="nm">
+    <article class="card nc top" data-c="fm"><div class="hd"><span class="ix">01</span><span class="tag">C5</span></div><h3>Serveo</h3><p>Largest facility-services firm in Spain by revenue.</p><span class="t3">FIRST CALL</span></article>
+    <article class="card nc top" data-c="fm"><div class="hd"><span class="ix">02</span><span class="tag">C5</span></div><h3>ISS Iberia</h3><p>€775M revenue in 2025, 35,000 staff, serves 45.7% of the Ibex 35.</p><span class="t3">FIRST CALL</span></article>
+    <article class="card nc" data-c="fm"><div class="hd"><span class="ix">03</span><span class="tag">C5</span></div><h3>Grupo Eulen</h3><p>Second largest by revenue, around 29,000 staff.</p></article>
+    <article class="card nc" data-c="fm"><div class="hd"><span class="ix">04</span><span class="tag">C5</span></div><h3>Clece</h3><p>Large public and private cleaning contracts.</p></article>
+    <article class="card nc top" data-c="re"><div class="hd"><span class="ix">05</span><span class="tag b">X2 + C5</span></div><h3>Westfield (URW)</h3><p>One operator for Glòries, La Maquinista and Splau.</p><span class="t3">FIRST CALL</span></article>
+    <article class="card nc" data-c="re"><div class="hd"><span class="ix">06</span><span class="tag b">X2 + C5</span></div><h3>Diagonal Mar</h3><p>200+ shops in Barcelona.</p></article>
+    <article class="card nc" data-c="re"><div class="hd"><span class="ix">07</span><span class="tag b">X2 + C5</span></div><h3>Carrefour Spain</h3><p>The group has tested a humanoid in a French warehouse since June 2026.</p></article>
+    <article class="card nc" data-c="re"><div class="hd"><span class="ix">08</span><span class="tag b">X2 + C5</span></div><h3>Alcampo</h3><p>€19.4M robotised online-order centre near Madrid.</p></article>
+    <article class="card nc" data-c="lo"><div class="hd"><span class="ix">09</span><span class="tag g">G2</span></div><h3>Mango logistics centre</h3><p>280,000 m² in Lliçà d'Amunt, working with Theker's AI robots since July 2026.</p></article>
+    <article class="card nc" data-c="lo"><div class="hd"><span class="ix">10</span><span class="tag g">G2</span></div><h3>SEAT Martorell</h3><p>First carmaker in Spain to use autonomous mobile robots for parts.</p></article>
+    <article class="card nc" data-c="ch"><div class="hd"><span class="ix">11</span><span class="tag">All products</span></div><h3>RH BOTS</h3><p>Agree lead hand-off and joint pilots.</p></article>
+    <article class="card nc" data-c="ch"><div class="hd"><span class="ix">12</span><span class="tag">All products</span></div><h3>Bunzl Spain</h3><p>Supplies cleaning firms nationwide; already sells SoftBank robots.</p></article>
+  </div>
+  <div class="note rv"><b>First three calls:</b> Serveo, ISS and Westfield. One decision there opens many sites.</div>
+</div></section>
+
+<section id="plan"><div class="wrap">
+  <div class="sh rv"><div class="n">05 / PLAN</div><h2>What happens in 90 days</h2><p>Three phases, each with something I can show at the end of it.</p></div>
+  <div class="tl">
+    <div class="stp rv"><div class="dot">1</div><div class="mono">Days 1–30</div><h3>Contact</h3><div class="card"><ul><li>Align with <b>RH BOTS</b> on who owns which leads.</li><li>Reach all <b>12 accounts</b>.</li><li>Book the first <b>C5 demos</b> with two contractors.</li></ul></div></div>
+    <div class="stp rv"><div class="dot">2</div><div class="mono">Days 31–60</div><h3>Demonstrate</h3><div class="card"><ul><li>Run <b>5 demos</b> on real sites: a mall, a hypermarket, a warehouse.</li><li>Agree <b>pilot success criteria</b> with the two strongest accounts.</li></ul></div></div>
+    <div class="stp rv"><div class="dot">3</div><div class="mono">Days 61–90</div><h3>Close</h3><div class="card"><ul><li>Sign <b>one paid pilot</b>.</li><li>Turn it into a <b>customer story</b> for the next trade show.</li></ul></div></div>
+  </div>
+  <div class="card show rv"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ff8a3d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span><b>Next showcase:</b> Advanced Factories, Fira Barcelona, 31 March – 2 April 2027, right after day 90.</span></div>
+</div></section>
+
+<section id="target" class="alt"><div class="wrap">
+  <div class="sh rv"><div class="n">06 / COMMITMENT</div><h2>My first-quarter target</h2><p>Three numbers I would be measured on.</p></div>
+  <div class="tg3">
+    <div class="card tn rv"><b>3</b><h3>partner conversations</h3><p>Integrators and distributors actively working leads with us.</p></div>
+    <div class="card tn rv"><b>5</b><h3>on-site demos</h3><p>Robots working on the customer's own floor.</p></div>
+    <div class="card tn rv"><b>1</b><h3>paid pilot</h3><p>Signed, with success criteria agreed up front.</p></div>
+  </div>
+  <div class="fun" id="fun" role="img" aria-label="Funnel: 12 accounts contacted, 5 on-site demos, 1 paid pilot">
+    <div class="fb" style="--w:86%;background:#4d86ff;color:#fff">12 accounts contacted</div>
+    <div class="fb" style="--w:58%;background:#ff8a3d">5 on-site demos</div>
+    <div class="fb" style="--w:32%;background:#35d0a0">1 paid pilot</div>
+  </div>
+</div></section>
+
+<section id="why"><div class="wrap">
+  <div class="sh rv"><div class="n">07 / WHY ME</div><h2>BD drive with a robotics background</h2><p>I can open the door, follow the technical conversation and stay close to the customer.</p></div>
+  <div class="why">
+    <div class="card wc rv"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff8a3d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></svg></div><div class="mono">BD</div><h3>I build pipelines from zero</h3><p>Crypto-exchange BD: I find, qualify and negotiate with hard-to-reach partners through cold outreach, in roles where results decide everything.</p></div>
+    <div class="card wc rv"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff8a3d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="8" width="14" height="10" rx="2"/><path d="M12 4v4M9 13h.01M15 13h.01M2 13h3M19 13h3M9 21v-3M15 21v-3"/></svg></div><div class="mono">Robotics</div><h3>I speak the technical language</h3><p>Robotics and Advanced Construction at IAAC Barcelona, hands-on with ABB and UR robot arms. I can support demos and technical discussions.</p></div>
+    <div class="card wc rv"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ff8a3d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div class="mono">Local</div><h3>I am already here</h3><p>Based in Barcelona. Mandarin native, professional English, Spanish A1 and improving. I also produce robotics content for social media and events.</p></div>
+  </div>
+  <div class="end rv"><h3>I would be glad to walk you through this plan.</h3><div class="act"><a class="btn d" href="mailto:fu6fu62@gmail.com?subject=Opening%20Spain%20for%20AGIBOT">fu6fu62@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/chi-l-589166229/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div>
+
+  <details class="rv"><summary>Sources for every figure on this page</summary><ul class="srcs">
+    <li><b>AGIBOT at MWC 2026, rental model:</b> <a href="https://www.agibot.com/article/231/detail/44.html" target="_blank" rel="noopener">agibot.com news, 2 March 2026</a></li>
+    <li><b>RH BOTS agreement:</b> <a href="https://www.agibot.com.cn/article/315/detail/143.html" target="_blank" rel="noopener">agibot.com.cn news, March 2026</a></li>
+    <li><b>King Felipe VI guided by A2:</b> <a href="https://www.agibot.com.cn/article/315/detail/142.html" target="_blank" rel="noopener">agibot.com.cn news, 4 March 2026</a></li>
+    <li><b>TÜV Rheinland certification:</b> <a href="https://www.agibot.com/article/231/detail/96.html" target="_blank" rel="noopener">agibot.com news, IFA, 4 September 2026</a></li>
+    <li><b>C5 specifications:</b> <a href="https://www.agibot.com/products/C5" target="_blank" rel="noopener">agibot.com/products/C5</a></li>
+    <li><b>X2 specifications:</b> <a href="https://www.agibot.com/products/X2" target="_blank" rel="noopener">agibot.com/products/X2</a> and AGIBOT Product Brochure, 29 October 2026</li>
+    <li><b>G2 specifications:</b> <a href="https://www.agibot.com/products/G2" target="_blank" rel="noopener">agibot.com/products/G2</a> and <a href="https://www.agibot.com/filepage/296.html" target="_blank" rel="noopener">G2 product manual</a></li>
+    <li><b>Gausium, NouColors and Limcamar:</b> <a href="https://gausium.com/news/autonomous-cleaning-robots-limcamar-spain" target="_blank" rel="noopener">gausium.com, 8 July 2026</a></li>
+    <li><b>SoftBank Robotics and Bunzl Spain:</b> <a href="https://www.softbankrobotics.com/news/20230306a" target="_blank" rel="noopener">softbankrobotics.com, 6 March 2023</a></li>
+    <li><b>Facility-services ranking:</b> <a href="https://www.infobelpro.com/companies/spain/cleaning-and-facility-services" target="_blank" rel="noopener">Infobel registry data, June 2026</a></li>
+    <li><b>ISS Iberia 2025 results:</b> <a href="https://www.es.issworld.com/insights/noticias/iss-iberia-facturacion-2025" target="_blank" rel="noopener">ISS, 23 March 2026</a>; <a href="https://www.elperiodico.com/es/economia/20260311/gigante-limpieza-iss-iberia-supera-127829329" target="_blank" rel="noopener">El Periódico, 11 March 2026</a></li>
+    <li><b>URW centres in Barcelona:</b> <a href="https://www.expansion.com/catalunya/2026/02/13/698f7618468aebb3688b457d.html" target="_blank" rel="noopener">Expansión, 13 February 2026</a></li>
+    <li><b>Diagonal Mar, 200+ shops:</b> <a href="https://www.diagonalmarcentre.es/tiendas" target="_blank" rel="noopener">diagonalmarcentre.es</a></li>
+    <li><b>Carrefour humanoid test:</b> <a href="https://supplychainmagazine.fr/carrefour-teste-son-premier-robot-humanoide-en-entrepot" target="_blank" rel="noopener">Supply Chain Magazine, 18 June 2026</a></li>
+    <li><b>Alcampo €19.4M centre:</b> <a href="https://www.logisticaprofesional.com/texto-diario/mostrar/5028553/alcampo-prepara-hasta-280000-pedidos-online-mes-desde-almacen-automatizado-san-fernando-henares-madrid" target="_blank" rel="noopener">Logística Profesional, 13 October 2024</a></li>
+    <li><b>Mango and Theker:</b> <a href="https://www.europapress.es/catalunya/noticia-mango-colabora-theker-desarrollar-proyectos-robotizacion-centro-logistico-20260730000449.html" target="_blank" rel="noopener">Europa Press, 29 July 2026</a>; Mango press dossier 2026</li>
+    <li><b>SEAT Martorell mobile robots:</b> <a href="https://www.seat.com/company/news/company/autonomous-mobile-robots-in-martorell-plant" target="_blank" rel="noopener">SEAT, 28 April 2021</a></li>
+    <li><b>Advanced Factories 2027:</b> <a href="https://upcschool.upc.edu/ing/agenda/event/5323/advanced-factories-2027" target="_blank" rel="noopener">UPC School agenda</a></li>
+  </ul></details>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>© 2026 Chi Lee · A job proposal, not an AGIBOT publication.</span><span>Product and event photos © AGIBOT.</span></div></footer>
+
+<script>
+(function(){
+ var bar=document.getElementById('bar');
+ function prog(){var h=document.documentElement;var m=h.scrollHeight-h.clientHeight;bar.style.width=(m>0?(h.scrollTop/m*100):0)+'%';}
+ window.addEventListener('scroll',prog,{passive:true});prog();
+ var els=document.querySelectorAll('.rv, #fun');
+ if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+  els.forEach(function(el,i){if(el.classList.contains('rv'))el.style.transitionDelay=(i%3)*70+'ms';io.observe(el);});
+ }else{els.forEach(function(el){el.classList.add('in');});}
+ var chips=document.querySelectorAll('.chip'),cards=document.querySelectorAll('.nc');
+ chips.forEach(function(c){c.addEventListener('click',function(){var f=c.getAttribute('data-f');chips.forEach(function(x){x.setAttribute('aria-pressed',String(x===c));});cards.forEach(function(k){k.classList.toggle('hide',f!=='all'&&k.getAttribute('data-c')!==f);});});});
+})();
+</script>
+</body>
+</html>
